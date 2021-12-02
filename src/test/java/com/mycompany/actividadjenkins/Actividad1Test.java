@@ -18,16 +18,16 @@ import static org.junit.Assert.*;
  */
 public class Actividad1Test {
     
-    @org.junit.Test
+    @Test
     public void testDia_laboral_Lunes() {
         System.out.println("dia_laboral Lunes");
         String dia = "Lunes";
-        boolean expResult = true;
+        boolean expResult = 3;
         boolean result = Actividad1.dia_laboral(dia);
         assertEquals(expResult, result);
     }
     
-    @org.junit.Test
+    @Test
     public void testDia_laboral_Sabado() {
         System.out.println("dia_laboral Sabado");
         String dia = "abado";
