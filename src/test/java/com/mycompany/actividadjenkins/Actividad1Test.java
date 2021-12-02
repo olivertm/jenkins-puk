@@ -22,7 +22,7 @@ public class Actividad1Test {
     public void testDia_laboral_Lunes() {
         System.out.println("dia_laboral Lunes");
         String dia = "Lunes";
-        boolean expResult = 3;
+        boolean expResult = true;
         boolean result = Actividad1.dia_laboral(dia);
         assertEquals(expResult, result);
     }
@@ -30,8 +30,8 @@ public class Actividad1Test {
     @Test
     public void testDia_laboral_Sabado() {
         System.out.println("dia_laboral Sabado");
-        String dia = "abado";
-        boolean expResult = true;
+        String dia = "Sabado";
+        boolean expResult = false;
         boolean result = Actividad1.dia_laboral(dia);
         assertEquals(expResult, result);
     }
