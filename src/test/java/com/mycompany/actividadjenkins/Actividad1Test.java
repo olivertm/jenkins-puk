@@ -30,7 +30,7 @@ public class Actividad1Test {
     @org.junit.Test
     public void testDia_laboral_Sabado() {
         System.out.println("dia_laboral Sabado");
-        String dia = "Sabado";
+        String dia = "abado";
         boolean expResult = true;
         boolean result = Actividad1.dia_laboral(dia);
         assertEquals(expResult, result);
